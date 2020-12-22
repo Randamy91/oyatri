@@ -1,12 +1,12 @@
-package oyatri.com.board.controller;
+package oyatri.com.board;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class board {
+public class BoardController {
 	@RequestMapping("/board.do")
 	public String board(){
-		return "oyatri/board";
+		return "oyatri/board/board";
 	}
 }
